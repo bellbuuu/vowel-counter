@@ -8,5 +8,34 @@
 </head>
 <body>
     <h1>hello </h1>
+    <input id="vowel-input" type="text">
+    <button id="submit-button">submit</button>
+    <p id="output-el"></p>
+
+
 </body>
+<script>
+    
+    const vowelinput= document.getElementById("vowel-input")
+    const submitbutton=document.getElementById("submit-button")
+    const outputelement=document.getElementById("output-el")
+    
+    submitbutton.addEventListener("click",()=> {
+        const input= vowelinput.value 
+        let count=0
+        for(char of input){
+            const vowels=["a","e","i","o","u"]
+            if(vowels.includes(char)){
+
+               count+=1
+            }
+            console.log(char) //prints character
+            outputelement.textContent= "number of vowels: "+count
+        console.log(input)}
+        console.log(count)
+        })
+
+
+
+</script>
 </html>
