@@ -1,0 +1,49 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+
+}
+.heading{
+ font-weight: bold;   
+}
+#vowel-input{
+    background-color: rgb(201, 78, 201);
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: greenyellow;
+    padding: 12px;
+    /* padding top bottom left right*/
+    
+}
+#vowel-input:focus{
+    background-color: yellow;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color:rgb(255, 92, 92);
+    outline:none;
+    
+}
+/*#submit-button{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-color: white;
+    font: inherit;
+    
+}
+#submit-button:focus{
+    border-color:rgb(72, 72, 214);
+}
+*/
+#output-el{
+    color:red;
+}
+
